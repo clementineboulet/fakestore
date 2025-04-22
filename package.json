@@ -6,22 +6,36 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "upload-data": "tsx scripts/uploadToAlgolia.ts",
+    "crawl": "tsx scripts/crawlToAlgolia.ts"
   },
   "dependencies": {
+    "@algolia/client-search": "^5.23.0",
+    "@faker-js/faker": "^9.6.0",
+    "@heroicons/react": "^2.2.0",
+    "@tarekraafat/autocomplete.js": "^10.2.9",
+    "algoliasearch": "^5.23.0",
+    "dotenv": "^16.4.7",
+    "instantsearch.js": "^4.78.1",
+    "lucide-react": "^0.487.0",
+    "next": "15.2.4",
+    "node-fetch": "^3.3.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "react-dom": "^19.1.0",
+    "react-instantsearch": "^7.15.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "dotenv-cli": "^8.0.0",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "tsx": "^4.19.3",
+    "typescript": "^5"
   }
 }

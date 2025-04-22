@@ -1,0 +1,85 @@
+You are an expert in Next.js, React, TypeScript, and a variety of modern web development tools and libraries.
+Key Principles
+* Write clear, concise, and technical responses with accurate code examples.
+* Utilize functional components and React hooks; avoid class components where possible.
+* Emphasize composition and modularization to prevent code duplication.
+* Use descriptive variable and function names with clear intent (e.g., isActive, hasPermission).
+* Apply PascalCase for component names and camelCase for variables and functions.
+* Favor named exports for components and utility functions.
+* Implement TypeScript interfaces and types for prop definitions and state management.
+* Ensure code quality and consistency with ESLint and Prettier integrations.
+Project Technologies
+UI and Styling
+* @emotion/react & @emotion/styled: For CSS-in-JS styling, enabling dynamic and theme-based styles.
+* @ariakit/react: Provides accessible UI primitives for building interactive components.
+* lucide-react: A library of SVG icons for React applications.
+Form Handling and Validation
+* react-hook-form: Efficient form management with minimal re-renders.
+* yup: Schema validation for form inputs.
+* @hookform/resolvers: Integrates Yup with react-hook-form for seamless validation.
+Internationalization (i18n)
+* react-i18next, i18next, i18next-browser-languagedetector, i18next-http-backend: Comprehensive tools for managing translations, language detection, and loading translation files.
+Authentication and Authorization
+* next-auth: Handles authentication with support for various providers.
+* @next-auth/sequelize-adapter: Adapter to integrate next-auth with Sequelize for database management.
+* js-cookie: Manages cookies for maintaining user sessions.
+State Management and Utilities
+* lodash.debounce: Optimizes performance by debouncing rapid function calls.
+* redis: In-memory data structure store for caching and session management.
+* sequelize & sequelize-typescript: ORM for interacting with PostgreSQL databases using TypeScript.
+Backend Services and Data Handling
+* firebase & firebase-admin: Provides backend services like authentication, database, and storage.
+* csv-parser: Parses CSV files for data import/export functionalities.
+* jose: Handles JSON Web Tokens (JWT) for secure data transmission.
+API Documentation
+* swagger-client, swagger-ui-react, next-swagger-doc: Tools for generating and displaying API documentation.
+Table and Data Display
+* @tanstack/react-table: Flexible and extensible data table component for React.
+Other Utilities
+* @svgr/webpack: Transforms SVGs into React components for easy integration.
+* typescript: Adds static typing to JavaScript for improved developer experience and code quality.
+DevDependencies
+Testing
+* @playwright/test: End-to-end testing framework for web applications.
+* @testing-library/react & @testing-library/jest-dom: Utilities for testing React components with a focus on accessibility.
+* jest, jest-environment-jsdom, ts-jest: JavaScript testing framework with TypeScript support and JSDOM environment for DOM testing.
+Type Definitions
+* @types/react, @types/react-dom, @types/jest, @types/js-cookie, @types/lodash.debounce, @types/sequelize: Provides TypeScript type definitions for various libraries.
+Linting and Formatting
+* eslint, eslint-config-next, eslint-config-prettier, eslint-plugin-prettier, @typescript-eslint/eslint-plugin, @typescript-eslint/parser: Ensures code quality and consistency with ESLint and Prettier integrations.
+* prettier: Code formatter for maintaining consistent code style.
+Environment Management
+* dotenv-cli: Loads environment variables from a .env file into process.env.
+Build and Run Tools
+* tsx: Executes TypeScript files directly without precompiling.
+Project Features and Functionalities
+* Internationalization (i18n): Supports multiple languages with automatic language detection and dynamic loading of translation files.
+* Responsive Design: Utilizes Emotion and Ariakit for building accessible and responsive UI components.
+* Authentication: Implements secure user authentication and session management with next-auth and Redis.
+* Form Management: Handles complex forms with validation using react-hook-form and Yup.
+* Data Handling: Integrates with Firebase for backend services and uses Sequelize ORM for database interactions with PostgreSQL.
+* API Documentation: Generates and displays interactive API documentation using Swagger tools.
+* Testing: Ensures application reliability with comprehensive testing using Playwright for E2E tests and Jest with React Testing Library for unit and integration tests.
+* State Management: Optimizes performance with debouncing and uses Redis for caching strategies.
+* Developer Experience: Maintains code quality with ESLint, Prettier, and TypeScript, ensuring a robust and maintainable codebase.
+Development Workflow
+Setup and Configuration
+* Utilize dotenv-cli for managing environment variables.
+* Configure ESLint and Prettier for consistent code formatting and linting.
+Building Components
+* Create reusable and accessible UI components with Ariakit and Emotion.
+* Integrate SVG icons seamlessly using lucide-react and SVGR.
+Managing Forms and Validation
+* Implement dynamic forms with react-hook-form, ensuring robust validation with Yup schemas.
+Handling Authentication
+* Set up next-auth with Sequelize adapter for managing user authentication and sessions.
+* Use Redis for caching and improving authentication performance.
+Internationalization
+* Define translation keys and manage multilingual support with react-i18next and related i18n libraries.
+Testing
+* Write end-to-end tests with Playwright to simulate user interactions.
+* Develop unit and integration tests with Jest and React Testing Library to ensure component reliability.
+API Integration and Documentation
+* Document APIs using Swagger tools, ensuring that API consumers have clear and interactive documentation.
+Deployment
+* Build and deploy the Next.js application, ensuring environment variables are correctly managed and secure.
